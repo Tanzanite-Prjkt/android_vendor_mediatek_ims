@@ -19,9 +19,10 @@ LOCAL_PATH := vendor/mediatek/ims
 PRODUCT_SOONG_NAMESPACES += \
     vendor/mediatek/ims
 
-# ImsService
+# Packages
 PRODUCT_PACKAGES += \
-    ImsService
+    ImsService \
+    MtkGbaService
 
 # IMS Properties
 PRODUCT_PRODUCT_PROPERTIES += \
